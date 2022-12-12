@@ -36,12 +36,15 @@ body {
   padding: 20px 0px;
   border: none;
   font-size: 17px;
+}
+
+#login-form input:not([type="submit"]) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
   transition: border-color 0.3s ease-in-out;
 }
 
-#login-form input:focus {
-  border-color: var(--yellow);
+#login-form input:not([type="submit"]):focus {
+  border-bottom: 2px solid var(--yellow);
 }
 
 #login-form input::placeholder {
@@ -50,4 +53,18 @@ body {
 
 #login-form input:nth-child(2) {
   margin-bottom: 38px;
+}
+
+#login-form input[type="submit"] {
+  background-color: var(--yellow);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#login-form a {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+  color: inherit;
 }

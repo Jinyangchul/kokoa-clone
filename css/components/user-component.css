@@ -1,0 +1,34 @@
+.user-component {
+  display: flex;
+}
+
+.user-component__column {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__avatar {
+  width: 80px;
+  border-radius: 40%;
+  padding: 22px;
+}
+
+.user-component__title {
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+}
+
+.user-component__subtitle {
+}
+
+.channel {
+  border-top: 0.5px solid rgba(0, 0, 0, 0.2);
+  margin: 0px 20px;
+}
+
+.channel__title {
+  padding: 17px 0px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.4);
+}

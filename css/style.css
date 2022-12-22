@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Noto+Sans:wght@400;500;600;700&family=Noto+Serif:wght@400;700&display=swap");
 
 @import "reset.css";
 @import "variables.css";
@@ -7,6 +7,7 @@
 @import "components/status_bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/user-component.css";
 
 /* Screens */
 @import "screens/login.css";
